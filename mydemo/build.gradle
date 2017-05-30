@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'android-apt'
 
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion as Integer
@@ -26,6 +27,29 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile "com.android.support:appcompat-v7:$supportLibsVersion"
+    compile "com.android.support:recyclerview-v7:$supportLibsVersion"
+
+    // Butter Knife
+    compile 'com.jakewharton:butterknife:8.2.1'
+    apt 'com.jakewharton:butterknife-compiler:8.2.1'
+
+    // glide
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'jp.wasabeef:glide-transformations:2.0.1'
+
+    // Rxjava
+    compile 'io.reactivex:rxjava:1.1.0'
+    compile 'io.reactivex:rxandroid:1.1.0'
+
+    // Retrofit
+    compile 'com.squareup.retrofit2:retrofit:2.0.0-beta4'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.0-beta4'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.0-beta4'
+
+    // Gson
+    compile 'com.google.code.gson:gson:2.6.2'
+
+    compile 'com.github.fashare2015:NoViewHolder:1.0.1'
 }
 
 // kotlin
