@@ -390,5 +390,6 @@ kotlin 结合一些流行第三方库 + 知乎日报api 做了一个简易的dem
 
 # 感谢
 [Kotlin 官方参考文档 中文版](https://hltj.gitbooks.io/kotlin-reference-chinese/content/)
+
 [为什么说Kotlin值得一试](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0226/4000.html)
 
