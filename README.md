@@ -376,7 +376,7 @@ public class PersonView(context: Context, attrs: AttributeSet?) : LinearLayout(c
 <br/>
 
 # Demo实战
-kotlin 结合一些流行第三方库 + 知乎日报api 做了一个简易的demo，在模块（根目录/mydemo）中：
+用 kotlin 结合一些流行第三方库 + 知乎日报api 做了一个简易的demo，在模块（根目录/mydemo）中：
 - Butter Knife
 - Retrofit
 - Gson
