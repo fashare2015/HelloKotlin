@@ -60,7 +60,11 @@ dependencies {
 [Kotlin 官方参考文档 中文版](https://hltj.gitbooks.io/kotlin-reference-chinese/content/)
 
 # 详细介绍
+>以下每个例子附带一份源码，在(根目录/app)下
+
 ## 1. 语法糖
+>以下每个例子都有一份源码，在(根目录/app)下
+
 ### 1.1 类的简化
 #### 1.1.1 类的定义
 一切从一个简单的JavaBean说起吧。
